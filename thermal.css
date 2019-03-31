@@ -1,0 +1,32 @@
+body{
+}
+
+.brandText{
+  font-family: 'Germania One', cursive;
+  font-size: 1.75em;
+}
+
+.jmbtrn{
+  color: white;
+  font-family: 'Germania One', cursive;
+  text-shadow: 2px 2px 2px black;
+}
+
+.jumboBG{
+  display:flex;
+  align-items:center;
+  background:url("https://source.unsplash.com/QpeFep6JaoA") center center;
+  /* photo from unsplash, by Kelly Sikkema */
+  background-size:cover;
+}
+
+.cardTop{
+  width: 100%;
+  min-height: 10vw;
+  max-height: 15vw;
+  object-fit: cover;
+}
+
+.myCard{
+  box-shadow: 1px 1px 3px #CD4D1A, 0px 1px 8px black;
+}
