@@ -70,15 +70,15 @@ def degF(tempC):
 # Twilio setup
 # Your Account Sid and Auth token from twilio.com/console
 # Danger! This is insecure. See http://til.io/secure
-account_sid = 'ACe7fa4789b57936c384ab0a9f4109293c'
-auth_token = 'f513a6156f9cdaaacd48ce05366786fb'
+account_sid = '********************************'
+auth_token = '*********************************'
 client = Client(account_sid, auth_token)
 
 # Establish a database connection
 db = mariadb.connect(
 	host = "localhost",
-	user = "dillon",
-	passwd = "Dragon1985",
+	user = "******",
+	passwd = "********",
 	database = "temps"
 	)
 
